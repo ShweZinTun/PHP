@@ -7,8 +7,6 @@
 </head>
 <body>
 
-
-
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
     Please enter a string :<input type="text" name="name"><br>
     <input type="submit" name="submit" value="submit">   
